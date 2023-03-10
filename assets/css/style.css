@@ -280,6 +280,13 @@ text-align: center;
         display: none;
     }
 
+    #times > div{ /*this media query goes for both tablet and mobile screens*/
+        width: 100%; /*from 20% to 100% witch to stack the times verticaly instead*/
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
 }
 
 /* For medium screen sizes from 950px wide and down*/
@@ -316,6 +323,4 @@ text-align: center;
         text-align: center;
         padding: 0  20px;
     }
-    
-
 }
