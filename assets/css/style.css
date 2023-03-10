@@ -130,7 +130,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: right; 
-    background-color: silver;
 }
 
 #center-about {
@@ -140,9 +139,8 @@ h1, h2 {
     background-color: green;
 }
 
-.left-about-heading {
+.left-about-heading, .right-about-heading {
     width: 60%;
-    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -154,6 +152,18 @@ hr {
     margin: 5px 0;
 }
 
-.right-about-heading{
-    
+.left-about-heading{
+    float: right;
 }
+.right-about-heading{
+    float: left;
+}
+
+.right-about-heading h2{
+    text-align:right;
+}
+
+.right-about-heading p{
+    text-align:right;
+}
+
