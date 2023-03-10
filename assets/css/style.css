@@ -72,7 +72,7 @@ h1, h2 {
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center;
+    background: url("../images/hero-image.webp") no-repeat center center;
 
     /*animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -133,10 +133,8 @@ h1, h2 {
 }
 
 #center-about {
-    padding-top: 30px;
     width: 33%;
     margin: 0 auto;  
-    background-color: green;
 }
 
 .left-about-heading, .right-about-heading {
@@ -167,3 +165,25 @@ hr {
     text-align:right;
 }
 
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#cirle-container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%; /*to create a circle, this works with squares*/
+    margin : 0 auto; /*to align the circle to its parent in a container*/
+}
+
+#circle-cover-bg{
+    background: url("../images/ethos-center-image.jpg") no-repeat center center;
+    height: 100%; /*give the image a heigh or the image will not show up*/
+    border-radius: 50%;
+}
