@@ -233,3 +233,17 @@ text-align: center;
     padding: 5%;
     color: #3a3a3a;
 }
+
+/*Galery*/
+/* 4 Rows for Desktop, * tablet, * phone*/
+
+#photos{
+    clear: both; /*photos will display bellow the header*/
+    line-height: 0; /*removes any spacing between the images*/
+    column-count:4; /*this will display 4 columns*/
+    column-gap: 0; /*gets rid of the gaps*/
+}
+
+#photos > img { /*the images will come all together, it looks like they have been measured in purpuse, split the screen into squares and arrange images*/
+    width: 100%;
+}
