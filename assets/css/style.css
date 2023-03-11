@@ -248,6 +248,20 @@ text-align: center;
     width: 100%;
 }
 
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150 10% 0 0px;
+}
+
 /* Media queries */
 
 /*For larger to medium screens size from 1200px wide and down (checked reducing the screen with the developer tools)*/
